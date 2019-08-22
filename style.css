@@ -1,3 +1,129 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
 
 /* font-family: 'Open Sans', sans-serif; */
+
+/* 
+400
+600
+700 
+800
+*/
+
+/* ## Global ------------------------------------ */
+*::selection {
+   background-color: lightgray;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;
+   color: grey;
+   background-color: lightgray;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+
+ul {
+   padding: 0;
+}
+
+li {
+   list-style-type: none;
+}
+
+.wrapper {
+   max-width: 900px;
+   margin: 0 auto;
+}
+
+.title {
+   color: crimson;
+   font-weight: 800;
+   margin-bottom: 0;
+}
+
+.title,
+.subtitle {
+   text-align: center;
+
+}
+
+.title {
+   font-size: 3rem;
+}
+.subtitle {
+   font-size: 2rem;
+   font-weight: 600;
+}
+.text {
+   font-size: 1.5rem;
+}
+
+header,
+main,
+footer {
+   background-color: #fff;
+   border-radius: 5px;
+
+   padding: 3rem;
+   margin-top: 2rem;
+
+   box-shadow: 0px 3px 3px 0 grey;
+}
+
+header {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.movie {
+   display: flex;
+}
+
+.cercle {
+   border: 5px solid lightgray;
+   border-radius: 50%;
+   margin: 0 auto;
+   display: block;
+}
+
+.btn {
+   border-radius: 4px;
+   background-color: crimson;
+   padding: 1rem;
+   color: #fff;
+   font-weight: 700;
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+}
+
+footer ul li{
+   display: inline-block;
+   margin: 0 2rem;
+}
+
+footer li a {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
+   color: lightgray;
+}
+
+.fa::before {
+   font-size: 2.5rem;
+}
+
+/* ## main */
+
+.movie__picture {
+   margin-right: 2rem;
+}
