@@ -127,3 +127,7 @@ footer li a {
 .movie__picture {
    margin-right: 2rem;
 }
+
+.grey {
+   background-color: lightgray;
+}
